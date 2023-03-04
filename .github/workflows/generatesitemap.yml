@@ -27,8 +27,8 @@ jobs:
         echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
         echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
         mv sitemap.xml sitemap.xml.tmp
-        git config user.email swann.martineau@iala-aism.org
-        git config user.name AdminSwann
+        git config user.email omar.eriksson@iala-aism.org
+        git config user.name IALAPublications
         git fetch
         git checkout sitemap
         mv sitemap.xml.tmp sitemap.xml
