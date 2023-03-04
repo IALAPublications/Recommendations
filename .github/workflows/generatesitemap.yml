@@ -1,4 +1,4 @@
-name: Generate xml sitemap for Recommendations
+name: Generate xml sitemap WROKING
 
 on:
   push:
