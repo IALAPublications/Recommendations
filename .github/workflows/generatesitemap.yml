@@ -1,4 +1,4 @@
-name: Generate xml sitemap WOKRING
+name: Generate xml sitemap for Recommendations
 
 on:
   push:
