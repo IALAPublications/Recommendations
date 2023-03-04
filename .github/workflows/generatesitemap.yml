@@ -1,4 +1,4 @@
-name: Generate xml sitemap WOKRING
+name: Generate xml sitemap WROKING
 
 on:
   push:
@@ -23,9 +23,9 @@ jobs:
 
     - name: Output stats
       run: |
-        echo "sitemap-path = ${{ steps.sitemap.outputs.sitemap-path }}"
-        echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
-        echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
+        # echo "sitemap-path = ${{ steps.sitemap.outputs.sitemap-path }}"
+        # echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
+        # echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
         mv sitemap.xml sitemap.xml.tmp
         git config user.email omar.eriksson@iala-aism.org
         git config user.name IALAPublications
